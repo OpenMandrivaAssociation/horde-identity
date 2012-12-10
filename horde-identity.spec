@@ -57,3 +57,27 @@ fi
 %{xmldir}/%{prj}.xml
 %{peardir}/Horde/Identity.php
 
+
+
+%changelog
+* Mon Jul 26 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 560597
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 524849
+- increased rel version to 2
+
+* Mon Feb 22 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 509400
+- removed BuildRequires; horde-framework
+  replaced PreReq with Requires(pre)
+- import horde-identity
+
+
+* Tue Mar  3 2009 Richard Bos <rbos@opensuse.org> - 0.0.2
+- Change dependency to horde-framework from just horde
+* Tue Dec 23 2008 Richard Bos <rbos@opensuse.org> - 0.0.2
+- Changed the pear install command, use package.xml instead of the tarbal
+* Wed Nov 26 2008 Richard Bos <rbos@opensuse.org> - 0.0.2
+- initial version
